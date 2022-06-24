@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: yellow;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sayac {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.start {
+  background-color: red;
+  font-size: 1rem;
+}
+.reset {
+  background-color: blue;
+}
+button {
+  width: 50px;
+  margin: 0 8px;
+  border-radius: 5px;
+}
+.stop {
+  display: none;
+}
