@@ -8,12 +8,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: yellow;
+  background: url("https://picsum.photos/1366/768");
 }
-.main {
+
+.stopwatch {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .sayac {
   display: flex;
@@ -26,14 +31,18 @@ body {
   display: flex;
   justify-content: center;
   padding: 1rem;
+  border-radius: 1rem;
   font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .start {
   background-color: red;
   font-size: 1rem;
+  cursor: pointer;
 }
 .reset {
   background-color: blue;
+  cursor: pointer;
 }
 button {
   width: 50px;
